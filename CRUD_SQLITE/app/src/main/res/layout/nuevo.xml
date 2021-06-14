@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/et_cod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/estiloedittext"
+        android:drawableStart="@drawable/ic_llave"
+        android:drawablePadding="5dp"
+        android:hint="Ingrese el código"
+        android:inputType="number"
+        android:paddingLeft="25dp"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/btn_buscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="62dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="100dp"
+        android:text="Buscar"
+        android:textColor="#fff"
+        android:background="@drawable/estiloboton"
+        android:shadowColor="#2314A8"
+        android:shadowDx="-3"
+        android:shadowDy="0"
+        android:shadowRadius="8"
+        android:drawableStart="@drawable/ic_search"
+        android:paddingLeft="10dp"
+        android:drawablePadding="0dp"
+        tools:ignore="RtlCompat" />
+
+</LinearLayout>

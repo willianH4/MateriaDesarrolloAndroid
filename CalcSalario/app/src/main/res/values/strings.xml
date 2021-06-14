@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CalSalarioByWillian_HernandezSIS21A</string>
+    <string name="creador">Alumno: Willian Hernandez SIS21A</string>
+    <string name="titulo">:: Bienvenido/a ::</string>
+    <string name="empleado">Nombre del trabajador</string>
+    <string name="Htrabajadas">Horas trabajadas</string>
+    <string name="Phoras">Pago por hora</string>
+    <string name="calcular">Calcular</string>
+    <string name="nuevo">Nuevo</string>
+    <string name="salir">Salir</string>
+</resources>

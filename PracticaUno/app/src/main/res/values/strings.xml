@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PracticaUno</string>
+    <string name="titulo">Bienvenido</string>
+    <string name="boton1">Entrar</string>
+</resources>

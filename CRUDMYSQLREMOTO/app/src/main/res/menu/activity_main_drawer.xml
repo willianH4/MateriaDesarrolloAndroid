@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <!--
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+            -->
+
+        <item
+            android:id="@+id/nav_categoria"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Categorias" />
+
+        <item
+            android:id="@+id/nav_consultarRecyclerviewCategorias"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Lista Categorias" />
+
+        <item
+            android:id="@+id/nav_updateAndDelete"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Actualizar y Eliminar" />
+
+
+        <item
+            android:id="@+id/nav_consultarCategorias"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Consultar categorias" />
+
+        <item
+            android:id="@+id/nav_producto"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Productos" />
+
+
+        <item
+            android:id="@+id/nav_acercaDe"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Acerca de" />
+
+    </group>
+</menu>

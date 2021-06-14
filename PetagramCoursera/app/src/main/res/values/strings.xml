@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PetagramCoursera</string>
+    <string name="mensaje">Saludos</string>
+    <string name="texto_accion">Accion</string>
+    <string name="tarjeta1">Android 6</string>
+    <string name="tarjeta2">Este es un curso de desarrollo movil con android</string>
+
+    <string-array name="planetas">
+        <item>Mercurio</item>
+        <item>Marte</item>
+        <item>Venus</item>
+        <item>Mercurio</item>
+        <item>Jupiter</item>
+        <item>Tierra</item>
+    </string-array>
+</resources>

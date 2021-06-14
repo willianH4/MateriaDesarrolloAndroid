@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="grey1">#979292</color>
+    <color name="blue">#536DCE</color>
+    <color name="grey">#8A8686</color>
+    <color name="white">#F2F3F5</color>
+    <color name="chovi3">#6DBDE0</color>
+    <color name="black">#0F0E0E</color>
+    <color name="nuevo2">#5B9EBD</color>
+    <color name="will3">#509674</color>
+    <color name="nuevo">#A78D8B</color>
+</resources>

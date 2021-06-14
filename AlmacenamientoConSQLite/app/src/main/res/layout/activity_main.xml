@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_marginBottom="12dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Codigo de articulo"
+           android:textSize="18sp"
+           android:textColor="@color/colorPrimaryDark"
+           android:fontFamily="sans-serif-black">
+
+       </TextView>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/etCodigo"
+           android:textSize="18sp">
+
+       </EditText>
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_marginTop="12dp"
+           android:layout_height="wrap_content"
+           android:text="Descripcion"
+           android:textSize="18sp"
+           android:textColor="@color/colorPrimaryDark"
+           android:fontFamily="sans-serif-black">
+
+       </TextView>
+
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/etDesc"
+           android:textSize="18sp">
+
+       </EditText>
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_marginTop="12dp"
+           android:layout_height="match_parent"
+           android:text="Precio"
+           android:textSize="18sp"
+           android:textColor="@color/colorPrimaryDark"
+           android:fontFamily="sans-serif-black">
+
+       </TextView>
+
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/etPrecio"
+           android:textSize="18sp">
+
+       </EditText>
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alta"
+            android:onClick="alta"
+            android:id="@+id/btnAlta">
+
+        </Button>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consulta por codigo"
+            android:onClick="consultaporcodigo"
+            android:id="@+id/btnConsultaC">
+
+        </Button>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/btnConsultaD"
+            android:layout_width="wrap_content"
+            android:onClick="consultapordescripcion"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Consulta por descripcion">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnBaja"
+            android:onClick="bajaporcodigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Baja por codigo">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/btnNotificacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:onClick="modificacion"
+            android:text="Modificacion">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

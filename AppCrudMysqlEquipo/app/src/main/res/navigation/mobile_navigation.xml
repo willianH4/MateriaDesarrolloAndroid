@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.app_crud_mysql.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+<!--
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.app_crud_mysql.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.app_crud_mysql.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+       -->
+    <fragment
+        android:id="@+id/nav_categoria"
+        android:name="com.example.app_crud_mysql.ui.categoria.Categoria"
+        android:label="@string/menu_categoria"
+        tools:layout="@layout/fragment_categoria" />
+    <fragment
+        android:id="@+id/nav_producto"
+        android:name="com.example.app_crud_mysql.ui.producto.Producto"
+        android:label="@string/menu_producto"
+        tools:layout="@layout/fragment_producto" />
+
+    <fragment
+        android:id="@+id/nav_creador"
+        android:name="com.example.app_crud_mysql.Creador"
+        android:label="Creador"
+        tools:layout="@layout/fragment_creador" />
+    <fragment
+        android:id="@+id/nav_recycleviewcategoria"
+        android:name="com.example.app_crud_mysql.ui.dashboard.DashboardFragment"
+        android:label="Recycleview Categoria"
+        tools:layout="@layout/layout_recyclerview" />
+
+    <fragment
+        android:id="@+id/nav_listviewCategoria"
+        android:name="com.example.app_crud_mysql.ui.dashboard.ListviewCategoria"
+        android:label="Listview Categoria"
+        tools:layout="@layout/fragment_listview_categoria" />
+
+    <fragment
+        android:id="@+id/nav_recyclerviewProductos"
+        android:name="com.example.app_crud_mysql.ui.dashboard.RecyclerviewProductos"
+        android:label="fragment_recyclerview_productos"
+        tools:layout="@layout/fragment_recyclerview_productos" />
+    <fragment
+        android:id="@+id/nav_usuariosRecyclerview"
+        android:name="com.example.app_crud_mysql.ui.dashboard.RecyclerviewUsuarios"
+        android:label="fragment_usuarios_recyclerview"
+        tools:layout="@layout/fragment_recyclerview_usuarios" />
+    <fragment
+        android:id="@+id/nav_listViewUsuario"
+        android:name="com.example.app_crud_mysql.ui.dashboard.ListViewUsuario"
+        android:label="fragment_list_view_usuario"
+        tools:layout="@layout/fragment_list_view_usuario" />
+</navigation>

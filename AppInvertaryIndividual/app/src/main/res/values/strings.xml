@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppInvertaryIndividual</string>
+    <string name="titulo1">Bienvenido/a</string>
+    <string name="titulo2">Sistema de control de inventario</string>
+</resources>

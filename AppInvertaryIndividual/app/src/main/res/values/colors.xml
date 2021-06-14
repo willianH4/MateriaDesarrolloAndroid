@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="mycolor1">#3F51B5</color>
+    <color name="mycolor">#FF5722</color>
+    <color name="will3">#2B3CE3</color>
+    <color name="colorToolBar">#BFEA1010</color>
+    <color name="white">#fff</color>
+    <color name="orange">#D15918</color>
+    <color name="black">#000</color>
+    <color name="gray">#727373</color>
+    <color name="cian">#27AAAE</color>
+    <color name="toolbar">#191515</color>
+</resources>

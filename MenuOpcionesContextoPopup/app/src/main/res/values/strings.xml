@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MenuOpcionesContextoPopup</string>
+    <string name="opcion1">Editar</string>
+    <string name="opcion2">Elimanar</string>
+</resources>

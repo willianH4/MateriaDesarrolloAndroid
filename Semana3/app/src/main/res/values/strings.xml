@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Semana3</string>
+    <string name="v1">Capturar clic de un boton</string>
+    <string name="v2">RadioGroup y RadioButton</string>
+    <string name="v3">Control CheckBox</string>
+    <string name="v4">Control Spinner</string>
+    <string name="v5">ListView</string>
+    <string name="v6">ImageButton</string>
+    <string name="v7">Notificaciones con Toast</string>
+    <string name="v8">EditText</string>
+    <string name="v9">Segundo Ativity</string>
+    <string name="v10">Segundo Activity y Datos</string>
+    <string name="v11">SharedPreferences</string>
+    <string name="v12">Agenda</string>
+    <string name="clave">Ingrese clave: </string>
+    <string name="btn">Verificar</string>
+</resources>

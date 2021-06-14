@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">WillianHernandez</string>
+    <string name="saludo">Examen 1 semana 4, modulo desarrollo de aplicaciones usando tecnologias emergentes</string>
+    <string name="ej1">CASO 1:
+    </string>
+    <string name="ej2">CASO 2:
+    </string>
+
+    <string name="textoj1">:: Calculo de nota final ::</string>
+    <string name="parciales">Ingrese las notas de sus parciales: </string>
+    <string name="efinal">Ingrese la nota de su examen final: </string>
+    <string name="eaula">Ingrese la nota del trabajo: </string>
+    <string name="res">Promedio Final: </string>
+
+    <string name="texto2">:: Calculo de salario semanal ::</string>
+    <string name="horas">Ingrese total horas trabajadas a la semana: </string>
+    <string name="clase">Selecione su clase: </string>
+    <string name="a">Clase A</string>
+    <string name="b">Clase B</string>
+    <string name="c">Clase C</string>
+    <string name="d">Clase D</string>
+    <string name="sal">Su salario semanal es: </string>
+    <string name="empleado">Nombre del empleado: </string>
+</resources>

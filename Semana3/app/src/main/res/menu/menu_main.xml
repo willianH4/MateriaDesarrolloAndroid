@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_v1"
+        android:title="Capturar clic de un boton"
+        android:icon="@drawable/ic_v1"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_v2"
+        android:title="RadioGroup y RadioButton"
+        android:icon="@drawable/ic_v1"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menu_v3"
+        android:title="Control Checkbox"
+        android:icon="@drawable/ic_v1"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menu_v4"
+        android:title="Control Spinner"
+        android:icon="@drawable/ic_v1"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menu_v5"
+        android:title="Control ListView"
+        android:icon="@drawable/ic_v1"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menu_v6"
+        android:title="Control ImageButton"
+        android:icon="@drawable/ic_v1"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menu_v7"
+        android:title="Notificaciones clase Toast"
+        android:icon="@drawable/ic_v1"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menu_v8"
+        android:title="Control EditText"
+        android:icon="@drawable/ic_v1"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menu_v9"
+        android:title="Lanzar segundo Activity"
+        android:icon="@drawable/ic_v1"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menu_v10"
+        android:title="Segundo Activity con parametros"
+        android:icon="@drawable/ic_v1"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_v11"
+        android:title="Usando SharedPreferences 1"
+        android:icon="@drawable/ic_v1"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_v12"
+        android:title="Usando SharedPreferences 2"
+        android:icon="@drawable/ic_v1"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_v13"
+        android:title="Ejercicio 1"
+        android:icon="@drawable/ic_v1"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_v14"
+        android:title="Ejercicio 2"
+        android:icon="@drawable/ic_v1"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_v15"
+        android:title="Salir"
+        android:icon="@drawable/ic_v1"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+</menu>

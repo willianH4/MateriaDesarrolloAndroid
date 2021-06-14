@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#781C05</color>
+    <color name="propio">#E9668DEF</color>
+    <color name="nombre">#ED5630</color>
+    <color name="encabezado">#FFFFFF</color>
+    <color  name="texto">#F11A1A</color>
+</resources>

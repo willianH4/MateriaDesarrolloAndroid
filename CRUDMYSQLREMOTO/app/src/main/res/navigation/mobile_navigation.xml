@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.willianhdz.crudmysql.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.willianhdz.crudmysql.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.willianhdz.crudmysql.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_categoria"
+        android:name="com.willianhdz.crudmysql.ui.categorias.Categoria"
+        android:label="Categorias"
+        tools:layout="@layout/fragment_categoria" />
+    <fragment
+        android:id="@+id/nav_producto"
+        android:name="com.willianhdz.crudmysql.ui.productos.Producto"
+        android:label="Productos"
+        tools:layout="@layout/fragment_producto" />
+    <fragment
+        android:id="@+id/nav_consultarCategorias"
+        android:name="com.willianhdz.crudmysql.ui.categorias.ConsultarCategorias"
+        android:label="Consultar por ID"
+        tools:layout="@layout/fragment_consultar_categorias" />
+
+    <fragment
+        android:id="@+id/nav_consultarRecyclerviewCategorias"
+        android:name="com.willianhdz.crudmysql.ui.categorias.ConsultarRecyclerviewCategorias"
+        android:label="Listado de categorias"
+        tools:layout="@layout/fragment_consultar_recyclerview_categorias" />
+    <fragment
+        android:id="@+id/nav_updateAndDelete"
+        android:name="com.willianhdz.crudmysql.ui.categorias.UpdateAndDelete"
+        android:label="Baja y Actualizacion de registros"
+        tools:layout="@layout/fragment_update_and_delete" />
+    <fragment
+        android:id="@+id/nav_acercaDe"
+        android:name="com.willianhdz.crudmysql.AcercaDe"
+        android:label="Datos del desarrollador"
+        tools:layout="@layout/fragment_acerca_de" />
+    <fragment
+        android:id="@+id/nav_updateDelete"
+        android:name="com.willianhdz.crudmysql.ui.productos.UpdateDelete"
+        android:label="Actualizacion y Baja de productos" />
+</navigation>

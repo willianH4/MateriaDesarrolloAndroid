@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#09425C"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".11"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="#8F2929"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Programador. "
+                android:fontFamily="serif-monospace"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".90"
+            android:layout_gravity="center"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:layout_marginRight="0dp"
+            android:background="#EDB304" >
+
+            <TextView
+                android:id="@+id/txtclose"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:textColor="#343637"
+                android:text="X"
+                android:paddingTop="3dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="@drawable/circulo0"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/iv_photo"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/foto"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Willian Adalberto Hernandez Aquino. "
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:fontFamily="cursive"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tel: (+503)6155-5490"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail: willian.hernandez19@itca.edu.sv"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verapaz, San vicente, El Salvador"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@color/orange"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Técnico"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#0e1bd2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ingenieria de sistemas informaticos"
+                android:textSize="9sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#212121"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="ITCA-FEPADE"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#252323"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+            <Button
+        android:id="@+id/btnfollow"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Follow Me"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonstyle1"
+        android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="8dp"
+                android:textColor="@color/white"
+                android:text="***Apasionado por las ventajas que ofrece la tecnologia. La programacion es un mundo demasiado extenso, no te frustres si inicias y sientes que no puedes, al contrario esfuerzate, estudia, lee y practica todo lo que puedas ya que solo asi lograras tu meta. \nbY Willian Hernandez."
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

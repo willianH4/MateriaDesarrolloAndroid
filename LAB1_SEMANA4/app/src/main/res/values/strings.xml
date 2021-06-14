@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">WillianHernandez</string>
+    <string name="saludo">Examen 1 semana 4, modulo desarrollo de aplicaciones usando tecnologias emergentes</string>
+    <string name="ej1">CASO 1: Un alumno desea saber cual sera su calificacion final en la materia de logica
+    computacional. La nota final se obtiene mediante los siguientes porcentajes:
+        55% El promedio de sus tres notas parciales (nota1)
+        30% La nota del examen final (nota 2)
+        15% La nota de un trabajo ex-aula (nota 3)
+    </string>
+    <string name="ej2">CASO: Se desea calcular el sueldo de un trabajador, teniendo las horas trabajadas durante la semana y la clase de puesto que
+    desempeña, diseñe la solucion que permita desplegar los datos del empleado y su sueldo semanal, sabiendo que el trabajador clase A se le paga $7.00/hora,
+        clase B $8.50, clase C $10.00 y la clase D $12.50.
+    </string>
+
+    <string name="textoj1">:: Calculo de nota final ::</string>
+    <string name="parciales">Ingrese las notas de sus parciales: </string>
+    <string name="efinal">Ingrese la nota de su examen final: </string>
+    <string name="eaula">Ingrese la nota del trabajo: </string>
+    <string name="res">Promedio Final: </string>
+
+    <string name="texto2">:: Calculo de salario semanal ::</string>
+    <string name="horas">Ingrese total horas trabajadas a la semana: </string>
+    <string name="clase">Selecione su clase: </string>
+    <string name="a">Clase A</string>
+    <string name="b">Clase B</string>
+    <string name="c">Clase C</string>
+    <string name="d">Clase D</string>
+    <string name="sal">Su salario semanal es: </string>
+    <string name="empleado">Nombre del empleado: </string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <!--
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+            -->
+        <item
+            android:id="@+id/nav_categoria"
+            android:icon="@drawable/ic_lista"
+            android:title="@string/menu_categoria" />
+        <item
+            android:id="@+id/nav_producto"
+            android:icon="@drawable/ic_lista"
+            android:title="@string/menu_producto" />
+        <item
+            android:id="@+id/nav_recycleviewcategoria"
+            android:icon="@drawable/ic_lista"
+            android:title="Recycleview Categoria" />
+        <item
+            android:id="@+id/nav_listviewCategoria"
+            android:icon="@drawable/ic_lista"
+            android:title="ListView Categoria" />
+
+        <item
+            android:id="@+id/nav_recyclerviewProductos"
+            android:icon="@drawable/ic_lista"
+            android:title="Lista de Productos en Rv" />
+
+
+        <item
+            android:id="@+id/nav_usuariosRecyclerview"
+            android:icon="@drawable/ic_lista"
+            android:title="Lista de Usuarios en Rv" />
+
+        <item
+            android:id="@+id/nav_listViewUsuario"
+            android:icon="@drawable/ic_lista"
+            android:title="Lista de Usuarios en Lts" />
+
+
+        <item
+            android:id="@+id/nav_creador"
+            android:icon="@drawable/ic_lista"
+            android:title="Craedor" />
+    </group>
+</menu>

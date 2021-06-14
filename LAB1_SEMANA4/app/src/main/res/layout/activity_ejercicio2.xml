@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ejercicio2"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto2"
+        android:fontFamily="sans-serif"
+        android:background="@color/cabeza"
+        android:textSize="24dp"
+        android:padding="12dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_horizontal"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="18dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/empleado"
+            android:fontFamily="sans-serif-black"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="18dp"
+            />
+
+        <EditText
+            android:id="@+id/etnombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese su nombre"
+            android:textColor="@color/black"
+            android:inputType="text"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/horas"
+            android:fontFamily="sans-serif-black"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="18dp"
+            />
+
+        <EditText
+            android:id="@+id/ethoras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Horas trabajadas"
+            android:textColor="@color/black"
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clase"
+            android:fontFamily="sans-serif-black"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="18dp"
+            />
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            >
+
+            <RadioButton
+                android:id="@+id/rb1"
+                android:fontFamily="sans-serif-black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/a"
+                android:layout_marginTop="4dp"/>
+
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/b"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="4dp"/>
+
+            <RadioButton
+                android:id="@+id/rb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="4dp"/>
+
+            <RadioButton
+                android:id="@+id/rb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/d"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="4dp"/>
+        </RadioGroup>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center"
+            android:textAlignment="center">
+
+            <Button
+                android:id="@+id/btnCalSalario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8sp"
+                android:background="@color/btn"
+                android:text="Calcular"/>
+
+
+            <Button
+                android:id="@+id/btnNew"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="8sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8sp"
+                android:background="@color/btn"
+                android:text="Nuevo"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/empleado"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginTop="18dp"
+            />
+
+        <TextView
+            android:id="@+id/tvnombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sal"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginTop="8dp"
+            />
+
+        <TextView
+            android:id="@+id/tvmonto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$ 0.0"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

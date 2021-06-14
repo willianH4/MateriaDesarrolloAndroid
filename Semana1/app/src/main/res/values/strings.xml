@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Semana1</string>
+    <string name="alumno">Willian Hernandez SIS21A</string>
+    <string name="ejemplo1">Primer Proyecto</string>
+    <string name="head">Evento clic con botones</string>
+    <string name="dato1">Ingrese el primer numero</string>
+    <string name="dato2">Ingrese el segundo numero</string>
+    <string name="btnsumar">Sumar</string>
+    <string name="btndividir">Dividir</string>
+    <string name="btnrestar">Restar</string>
+    <string name="btnmultiplicar">Multiplicar</string>
+    <string name="lblresultado">Resultado</string>
+
+</resources>

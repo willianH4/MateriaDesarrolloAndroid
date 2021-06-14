@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="15dp">
+
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-medium"
+            android:textAlignment="center"
+            android:background="@color/encabezado"
+
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/sueldo"
+                >
+
+        <EditText
+            android:id="@+id/etNombreTrabaja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:hint="@string/empleado"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:id="@+id/etHorasTrabajadas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:hint="@string/Htrabajadas"
+            android:inputType="numberDecimal"
+            />
+
+        <EditText
+            android:id="@+id/etPagoHora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:hint="@string/Phoras"
+            android:inputType="numberDecimal"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCalcular"
+                android:background="@drawable/btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/calcular"
+                android:textSize="15dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/btnNuevo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/nuevo"
+                android:textSize="15dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn"/>
+
+            <Button
+                android:id="@+id/btnSalir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/salir"
+                android:background="@drawable/btn"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total a pagar"
+            android:textColor="@color/texto"
+            android:textSize="30dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-medium"
+            android:textAlignment="center"
+
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/tvResultado1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0.0"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:textAlignment="center"
+
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total descuento"
+            android:textColor="@color/texto"
+            android:textSize="30dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-medium"
+            android:textAlignment="center"
+
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/tvResultado2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0.0"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:textAlignment="center"
+
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/tvCreador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/creador"
+            android:textColor="@color/texto"
+            android:textSize="20dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-medium"
+            android:textAlignment="center"
+
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

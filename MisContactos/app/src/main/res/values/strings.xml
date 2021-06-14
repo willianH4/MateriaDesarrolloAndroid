@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MisContactos</string>
+    <string name="nombre">Willian Hernandez</string>
+    <string name="telefono">2322-1222</string>
+    <string name="email">contacto@yahoo.com</string>
+
+    <string name="pnombre">nombre</string>
+    <string name="ptelefono">telefono</string>
+    <string name="pemail">email</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MetodoCallBack</string>
+    <string name="onstart">onStart</string>
+    <string name="oncreate">onCreate</string>
+    <string name="onstop">onStop</string>
+    <string name="onpause">onPause</string>
+    <string name="onresume">onResume</string>
+    <string name="ondestroy">onDestoy</string>
+</resources>

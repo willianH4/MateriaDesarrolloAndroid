@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cine</string>
+    <string name="tex1">Calculo de precio entrada el cine:</string>
+    <string name="tex2">Ingrese edad del cliente</string>
+    <string name="tex3">Ingrese el precio del boleto</string>
+    <string name="tex4">El costo del boleto es:</string>
+    <string name="btn1">Calcular precio</string>
+    <string name="btn2">Borrar registros</string>
+    <string name="txt5">El Descuento es: </string>
+</resources>

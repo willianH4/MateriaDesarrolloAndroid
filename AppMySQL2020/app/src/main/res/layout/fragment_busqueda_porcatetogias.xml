@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.consultas.busqueda_porcatetogias">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />-->
+
+    <!-- android:entries="@array/estadoCategorias"-->
+
+    <Spinner
+        android:id="@+id/sp_fk_categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="@color/blue"
+        android:spinnerMode="dropdown"
+        android:entries="@array/sp_fk"
+        android:background="@drawable/estilospinner"
+        style="@style/Widget.AppCompat.DropDownItem.Spinner"
+        />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Buscar productos"
+        android:textColor="@color/white"
+        android:background="@color/coloriconos"
+        android:layout_marginTop="110dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+</FrameLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Autor: Prof. Manuel de Jesús Gámez López -->
